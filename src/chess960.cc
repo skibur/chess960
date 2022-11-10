@@ -18,15 +18,11 @@
 
 #include "chess960.h"
 
-
-Chess960::Chess960()
-{
-    get_position();
-}
+Chess960::Chess960() { get_position(); }
 
 Chess960::~Chess960()
 {
-    //TODO
+    // TODO
 }
 
 void Chess960::get_position()
@@ -97,8 +93,4 @@ void Chess960::get_position()
     fen.append(" w KQkq - 0 1");
 }
 
-
-string Chess960::get_fen()
-{
-    return fen;
-}
+string Chess960::get_fen() { return fen; }

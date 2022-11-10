@@ -17,11 +17,11 @@
  */
 
 #include <iostream>
+
 #include "chess960.h"
 
 using std::cout;
 using std::endl;
-
 
 int main()
 {

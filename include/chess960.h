@@ -20,8 +20,8 @@
 #define CHESS960_INCLUDE_CHESS960_H_
 
 #include <array>
-#include <random>
 #include <cstring>
+#include <random>
 
 using std::array;
 using std::default_random_engine;
@@ -38,7 +38,6 @@ enum
     queen = 'Q',
     king = 'K',
 };
-
 
 class Chess960
 {
